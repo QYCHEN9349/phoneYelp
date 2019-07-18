@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    include: mongo,log,redis,es
+  application:
+    name: phoneYelp
+
+server:
+  port: 9999
+

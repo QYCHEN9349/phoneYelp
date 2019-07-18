@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://phoneYelp_rw:123456@118.25.188.238:27017/phoneYelp

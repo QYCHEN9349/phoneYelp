@@ -1,0 +1,4 @@
+logging:
+  config: "classpath:logback-spring.xml"
+  #  测试、正式环境用
+  path: "/data/logs/${spring.application.name}-${server.port}}"
